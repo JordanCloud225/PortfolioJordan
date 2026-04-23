@@ -12,14 +12,14 @@ import {onMounted, onUnmounted, ref} from 'vue';
 
 const isVisible=ref(false);
 const handleScroll=()=>{
-    isVisible.value = window.scrolly > 300;
+    isVisible.value = window.scrollY > 300;
 }
 const scrollToTop=()=>{
     window.scrollTo({top:0,behavior:'smooth'})
 }
 
 onMounted(()=>{
-    window.addEventListener('smooth',handleScroll)
+    window.addEventListener('scroll',handleScroll)
 });
 
 onUnmounted(()=>{

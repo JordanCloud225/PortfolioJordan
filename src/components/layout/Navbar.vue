@@ -53,7 +53,7 @@ const Menu = ref([
     { name: 'Services', href: '#services' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Pourquoi moi', href: '#whyme' },
-    // { name: 'Projets', href: '#projects' },
+    { name: 'Projets', href: '#projects' },
     { name: 'Contacts', href: '#contact' },
 ]);
 

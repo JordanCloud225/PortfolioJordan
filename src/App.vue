@@ -6,7 +6,7 @@
           <Services />
           <Skills />
           <Whyme />
-          <!-- <TestSlide /> -->
+          <Projects />
           <Contact />
           <Footer />
           <BackToTop />
@@ -51,4 +51,5 @@ const Contact = defineAsyncComponent(() => import('@/components/layout/Contact.v
 const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'));
 const BackToTop = defineAsyncComponent(() => import('@/components/layout/BackToTop.vue'));
 import LoadingSpinner from './components/layout/LoadingSpinner.vue';
+// import Projects from './components/layout/Projects.vue';
 </script>
