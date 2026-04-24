@@ -6,7 +6,7 @@
           <Services />
           <Skills />
           <Whyme />
-          <Projects />
+          <!-- <Projects /> -->
           <Contact />
           <Footer />
           <BackToTop />
