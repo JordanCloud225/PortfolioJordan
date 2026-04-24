@@ -34,7 +34,7 @@
                             before:rounded-lg">
                     <div class="relative w-full h-full transform translate-x-2.5 translate-y-2.5">
                         <img 
-                            src="@/assets/images/hero.png" 
+                            :src="imgHero" 
                             alt="Hero picture" 
                             class="w-full h-full object-cover rounded-lg"
                             loading="lazy"
@@ -64,6 +64,7 @@
 </template>
 <script setup>
 import Button from '@/components/UI/Button.vue';
+import imgHero from '@/assets/images/hero.png';
 
 const openCV = () => {
   // Méthode 1 : Ouverture dans un nouvel onglet (Recommandé)
