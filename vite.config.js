@@ -5,6 +5,14 @@ import  {fileURLToPath,URL} from 'node:url'
 export default defineConfig({
   plugins: [vue()],
   base: '/PortfolioJordan/',
+  build: {
+    rollupOptions: {
+      output: {
+        // Désactive le code splitting pour GitHub Pages
+        manualChunks: () => 'everything.js'
+      }
+    }
+  },
   resolve:{
     alias:{
       '@':fileURLToPath(new URL('./src',import.meta.url))

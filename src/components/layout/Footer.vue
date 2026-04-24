@@ -14,7 +14,7 @@
         </div>
     </footer>
 </template>
-<script>
+<script setup>
 import imgdark from '@/assets/images/logo.png'
 import imglight from '@/assets/images/logon.png'
 
