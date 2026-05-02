@@ -9,7 +9,7 @@
                             loading="lazy"
                         >
             </div>
-            
+            <div class="md:hidden text-xs">Je vous invite à le réouvrir sur un ordinateur pour une meilleure expérience d'utilisateur.</div>
             <div class="flex ml-2">Tout droit réservé</div>
         </div>
     </footer>

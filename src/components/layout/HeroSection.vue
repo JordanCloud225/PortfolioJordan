@@ -13,7 +13,7 @@
                      Je suis <span class="text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary">Zamblé Jordan</span>
                 </h1>
                 <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
-                    Un jeune Ivoirien passioné par tout ce qui touche à l'informatique, qui adore apprendre, apporté des solutions à des problèmes et par dessus tout, relévé des défis. j'ai des compétences dans divers domaines mais ici, je ne vous présenterai que mes compétences dans ma passion qui est L'INFORMATIQUE.
+                    Un jeune Ivoirien fasciné par tout ce qui touche à l'informatique, qui adore apprendre, apporter des solutions à des problèmes et par dessus tout, reléver des défis. j'ai des compétences dans divers domaines mais ici, je ne vous présenterai que mes compétences dans ma passion qui est L'INFORMATIQUE.
                 </p>
                 <div class="mt-6 flex justify-center lg:justify-start">
                     <Button label="Voir CV" @click="openCV" />
@@ -65,11 +65,12 @@
 <script setup>
 import Button from '@/components/UI/Button.vue';
 import imgHero from '@/assets/images/hero.png';
+import CV from '@/assets/CvJordan.pdf';
 
 const openCV = () => {
   // Méthode 1 : Ouverture dans un nouvel onglet (Recommandé)
   // Le fichier doit être dans le dossier /public de ton projet Vue
-  window.open('/CvJordan.pdf', '_blank');
+  window.open(CV, '_blank');
   
   // Méthode 2 (Alternative) : Affichage direct dans la page actuelle
   // window.location.href = '/mon-cv.pdf';

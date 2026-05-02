@@ -25,7 +25,7 @@
                       {{ tag }}
                     </span>
                   </div>
-                  <a :href="project.liveLink" class="project-button" target="_blank" rel="noopener noreferrer">
+                  <a :href="project.codeLink" class="project-button" target="_blank" rel="noopener noreferrer">
                     Voir le projet →
                   </a>
                 </div>
@@ -43,6 +43,7 @@ import SectionHeader from '@/components/UI/SectionHeader.vue';
 import ProjectCard from '@/components/layout/ProjectCard.vue';
 import imgschool from '@/assets/images/ecole.jpg';
 import imgpb from '@/assets/images/pb.jpg';
+import imgfacture from '@/assets/images/facture.png';
 import 'swiper/css';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
@@ -56,7 +57,7 @@ const projects = [
     image: imgschool,
     tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Symfony'],
     liveLink: '/',
-    codeLink: ''
+    codeLink: 'https://github.com/JordanCloud225/webecole.git'
   },
   {
     title: 'Application Web de gestion de pont bascule',
@@ -64,15 +65,15 @@ const projects = [
     image: imgpb,
     tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Symfony'],
     liveLink: '/',
-    codeLink: ''
+    codeLink: 'https://github.com/JordanCloud225/gestiondeverification.git'
   },
   {
-    title: 'Réservé',
-    description: 'Réservé pour le prochain projet',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=600&fit=crop',
-    tags: ['...'],
+    title: 'Application web de facturation',
+    description: "Une application web pour la gestion de stock et surtout la facturation d'article ou service...",
+    image: imgfacture,
+    tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Symfony'],
     liveLink: '/',
-    codeLink: ''
+    codeLink: 'https://github.com/JordanCloud225/webfacturation.git'
   },
   {
     title: 'Réservé',

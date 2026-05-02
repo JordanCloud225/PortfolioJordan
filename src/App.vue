@@ -6,7 +6,7 @@
           <Services />
           <Skills />
           <Whyme />
-          <!-- <Projects /> -->
+          <Projects />
           <Contact />
           <Footer />
           <BackToTop />
@@ -38,14 +38,14 @@
 </template>
 
 <script setup>
-import { defineAsyncComponent } from 'vue';
+// import { defineAsyncComponent } from 'vue';
 import Navbar from '@/components/layout/Navbar.vue'
 import HeroSection from '@/components/layout/HeroSection.vue'
 import Counter from '@/components/layout/Counter.vue'
 import Services from '@/components/layout/Services.vue'
 import Skills from '@/components/layout/Skills.vue'
 import Whyme from '@/components/layout/Whyme.vue'
-// import Projects from '@/components/layout/Projects.vue'
+import Projects from '@/components/layout/Projects.vue'
 import Contact from '@/components/layout/Contact.vue'
 import Footer from '@/components/layout/Footer.vue'
 import BackToTop from '@/components/layout/BackToTop.vue'
